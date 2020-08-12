@@ -4,7 +4,7 @@
 //////////////////////////////////
 var Discord = require('discord.io');
 var auth = require('./auth.json');
-var string = require('string-sanitizer');
+
 var Twitter = require('twitter');
 var config = require('./config.js');
 var client = new Twitter(config);
